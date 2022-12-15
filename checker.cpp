@@ -1,7 +1,7 @@
 #include <assert.h>
 #include <iostream>
 #include "checker.hpp"
-#include "test.hpp"
+#include "test.cpp"
 using namespace std;
 
 bool batteryTempIsOk(float temperature, float UppTempLim, float LowTempLim) 
