@@ -18,7 +18,7 @@ bool batteryTempIsOk(float temperature, float UppTempLim, float LowTempLim)
 bool SocisOk(float soc, float UppSocLim, float LowSocLim)
 {
  
-if(soc < UppSocLim || soc > LowSocLim) {
+if(soc < LowSocLim || soc > UppSocLim) {
     return false;
   }
   else {
