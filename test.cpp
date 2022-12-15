@@ -1,5 +1,5 @@
 #include <assert.h>
-#include "checker.hpp"
+#include "checker.cpp"
 
 void test_checker()
 {
