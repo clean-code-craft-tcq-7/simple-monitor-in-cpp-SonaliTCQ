@@ -7,7 +7,7 @@ using namespace std;
 bool batteryTempIsOk(float temperature, float UppTempLim, float LowTempLim) 
 {
 
-  if(temperature < UppLim || temperature > LowLim){  
+  if(temperature < UppTempLim || temperature > LowTempLim){  
     return false;
   }
     else {
@@ -28,7 +28,7 @@ if(soc < UppSocLim || soc > LowSocLim) {
 
 bool ChargeRateIsOk(float ChargeRate, float BattLim)
 {
-if(chargeRate > BattLim) {
+if(ChargeRate > BattLim) {
     return false;
   }
   else{
