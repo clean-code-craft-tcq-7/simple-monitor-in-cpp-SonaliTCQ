@@ -1,5 +1,5 @@
 #include <assert.h>
-#include "checker.hpp"
+#include "check_param_lim.hpp"
 
 void test_checker()
 {
